@@ -71,3 +71,15 @@ ActionController::RoutingError (No route matches "/contact" with {:method=>:get}
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-29 14:22:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 80ms (View: 76, DB: 0) | 200 OK [http://127.0.0.1/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-29 14:24:51) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/pages/home]
